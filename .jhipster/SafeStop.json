@@ -1,0 +1,38 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "latitude",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "longitude",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "violentCrimeCount",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "propertyCrimeCount",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "otherCrimeCount",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20180704005213",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "safe_stop",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "CityDataService",
+    "searchEngine": false
+}
